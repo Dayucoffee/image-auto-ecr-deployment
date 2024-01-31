@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test Code
-        uses: echo "Testing done....."
+        run: echo "Testing done....."
 
   build:
     runs-on: ubuntu-latest
